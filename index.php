@@ -6,11 +6,23 @@
 </head>
 
 <body>
-    <h1>
+    <h1>Recommend Book</h1>
         <?php 
-        echo "Hello World!"
+            $books = [
+                "Book 1",
+                "Book 2",
+                "Book 3"
+            ]
         ?>
-    </h1>
+
+        <ul>
+            <?php foreach( $books as $book) {
+                echo "<li>$book</li>";
+            }
+
+            ?>
+        </ul>
+    
 </body>
 
 </html>
