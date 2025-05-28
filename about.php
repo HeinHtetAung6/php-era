@@ -1,3 +1,5 @@
 <?php
+require 'functions.php';
+$heading = "About Page";
 
-require 'about.view.php';
+require 'views/about.view.php';
